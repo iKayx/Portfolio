@@ -7553,7 +7553,7 @@ i.btn-danger {
 }
 
 footer.page-footer {
-  margin-top: 20px;
+  /*margin-top: 20px;* Changes*/
   padding-top: 20px;
   background-color: #3E4551;
   color: #fff;

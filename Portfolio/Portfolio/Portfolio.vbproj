@@ -230,8 +230,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Images\120px-Availability_Table_Icons_-_Battle_net.svg" />
+    <Content Include="Content\Images\d3.png" />
     <Content Include="Content\Images\photo-1435244837924-21c508f9db25.jpg" />
     <Content Include="Content\Images\r6_night.jpg" />
+    <Content Include="Content\Images\wow.png" />
     <Content Include="Content\Material Design\Bootstrap 4 Alpha.css" />
     <Content Include="Content\Material Design\Bootstrap 4 Material.css" />
     <Content Include="Content\Material Design\Changes.css" />

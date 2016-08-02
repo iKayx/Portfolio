@@ -35,9 +35,31 @@
     }
 
 .web {
-    color:#86a3d0;
+    color: #95ddd6;
 }
 
     .web:hover {
-        color:#0d47a1;
+        color: #2bbbad;
     }
+
+.d3, .wow {
+    opacity: 0.5;
+}
+
+    .d3 img, .wow img {
+        width: 2em;
+        height: 2em;
+        margin-top: -1em;
+    }
+
+    .d3:hover, .wow:hover {
+        opacity: 1.0;
+    }
+
+section {
+    padding: 2rem;
+}
+
+#Banner {
+    padding: 0;
+}
