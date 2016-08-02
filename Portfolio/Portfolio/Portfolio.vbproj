@@ -214,24 +214,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\Fonts\Roboto-Black.ttf" />
-    <Content Include="Content\Fonts\Roboto-BlackItalic.ttf" />
-    <Content Include="Content\Fonts\Roboto-Bold.ttf" />
-    <Content Include="Content\Fonts\Roboto-BoldItalic.ttf" />
-    <Content Include="Content\Fonts\Roboto-Italic.ttf" />
-    <Content Include="Content\Fonts\Roboto-Light.ttf" />
-    <Content Include="Content\Fonts\Roboto-LightItalic.ttf" />
-    <Content Include="Content\Fonts\Roboto-Medium.ttf" />
-    <Content Include="Content\Fonts\Roboto-MediumItalic.ttf" />
-    <Content Include="Content\Fonts\Roboto-Regular.ttf" />
-    <Content Include="Content\Fonts\Roboto-Thin.ttf" />
-    <Content Include="Content\Fonts\Roboto-ThinItalic.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-Bold.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-BoldItalic.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-Italic.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-Light.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-LightItalic.ttf" />
-    <Content Include="Content\Fonts\RobotoCondensed-Regular.ttf" />
+    <Content Include="Content\Fonts\font-awesome.css" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -241,8 +224,12 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="Content\Images\photo-1435244837924-21c508f9db25.jpg" />
+    <Content Include="Content\Images\r6_night.jpg" />
     <Content Include="Content\Material Design\Bootstrap 4 Alpha.css" />
     <Content Include="Content\Material Design\Bootstrap 4 Material.css" />
+    <Content Include="Content\Material Design\Changes.css" />
+    <Content Include="Scripts\Bootstrap Material.js" />
     <Content Include="Scripts\Bootstrap.es5.js">
       <DependentUpon>Bootstrap.js</DependentUpon>
     </Content>
@@ -250,6 +237,7 @@
       <DependentUpon>Bootstrap.es5.js</DependentUpon>
     </Content>
     <Content Include="Scripts\Bootstrap.js" />
+    <Content Include="Scripts\Cookies.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\modernizr-custom.js" />
     <Content Include="Scripts\tether.js" />
