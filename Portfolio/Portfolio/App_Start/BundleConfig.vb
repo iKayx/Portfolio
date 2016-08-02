@@ -7,7 +7,7 @@ Public Module BundleConfig
                   "~/Content/Material Design/Bootstrap 4 Alpha.css",
                   "~/Content/Material Design/Bootstrap 4 Material.css",
                   "~/Content/Material Design/Changes.css",
-                  "~/Content/Fonts/font-awsome.css"))
+                  "~/Content/Fonts/font-awesome.css"))
 
         bundles.Add(New ScriptBundle("~/bundles/modernizr").Include(
                     "~/Scripts/modernizr-custom.js"))

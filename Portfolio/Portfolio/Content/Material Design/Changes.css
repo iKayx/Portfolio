@@ -1,3 +1,43 @@
 ﻿.btn-unique {
-    background-color:#3f729b;
+    background-color: #3f729b;
 }
+
+.facebook {
+    color: #9daccb !important;
+}
+
+    .facebook:hover {
+        color: #3b5998 !important;
+    }
+
+.youtube {
+    color: #e68f8f;
+}
+
+    .youtube:hover {
+        color: #cd201f;
+    }
+
+.instagram {
+    color: #cdb4a9;
+}
+
+    .instagram:hover {
+        color: #9b6954;
+    }
+
+.steam {
+    color: #8b8c90;
+}
+
+    .steam:hover {
+        color: #171a21;
+    }
+
+.web {
+    color:#86a3d0;
+}
+
+    .web:hover {
+        color:#0d47a1;
+    }

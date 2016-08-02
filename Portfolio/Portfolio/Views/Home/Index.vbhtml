@@ -38,15 +38,17 @@ End Code
     <div class="row">
 
         @*<div class="col-xs-12 col-sm-6 col-lg-3">
-            <div class="card">
-                <h3 class="card-header default-color white-text">Featured</h3>
-                <div class="card-block">
-                    <h4 class="card-title">Special title treatment</h4>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a class="btn btn-default">Go somewhere</a>
+                <div class="card">
+                    <h3 class="card-header default-color white-text">Featured</h3>
+                    <div class="card-block">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a class="btn btn-default">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-        </div>*@
+            </div>*@
+
+        @*https://stocksnap.io/photo/6UHHE19YG7*@
 
         <div class="col-xs-12 col-sm-6 col-lg-3">
             <div class="card">
@@ -60,8 +62,10 @@ End Code
                 <div class="card-block">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <i class="fa fa-facebook-f"></i>
-                   
+                    <a href="#" class="facebook"><i class="fa fa-facebook-official fa-2x"></i></a>
+                    <a href="#" class="youtube"><i class="fa fa-youtube fa-2x"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram fa-2x"></i></a>
+
                 </div>
             </div>
         </div>
@@ -78,6 +82,8 @@ End Code
                 <div class="card-block">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="facebook"><i class="fa fa-facebook-official fa-2x"></i></a>
+                    <a href="#" class="web"><i class="fa fa-globe fa-2x"></i></a>
                 </div>
             </div>
         </div>
@@ -94,7 +100,8 @@ End Code
                 <div class="card-block">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 </div>
+                    <a href="#" class="steam"><i class="fa fa-steam-square fa-2x"></i></a>
+                </div>
             </div>
         </div>
 
@@ -109,12 +116,12 @@ End Code
 
                 <div class="card-block">
                     <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="row">
 
     </div>
