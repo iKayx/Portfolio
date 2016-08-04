@@ -12,10 +12,13 @@ End Code
 
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img src="~/Content/Images/r6_night.jpg" alt="First slide" />
+                <img src="~/Content/Images/Banner1.jpg" alt="First slide" />
             </div>
             <div class="carousel-item">
-                <img src="~/Content/Images/r6_night.jpg" alt="Second slide" />
+                <img src="~/Content/Images/Banner2.jpg" alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+                <img src="~/Content/Images/Banner2.jpg" alt="Third slide" />
             </div>
         </div>
 
@@ -33,24 +36,11 @@ End Code
 <section>
     <div class="container">
         <div class="row">
-
-            @*<div class="col-xs-12 col-sm-6 col-lg-3">
-                    <div class="card">
-                        <h3 class="card-header default-color white-text">Featured</h3>
-                        <div class="card-block">
-                            <h4 class="card-title">Special title treatment</h4>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a class="btn btn-default">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>*@
-
-            @*https://stocksnap.io/photo/6UHHE19YG7*@
-
-            <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s">
                 <div class="card">
                     <div class="view overlay hm-white-slight">
-                        <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-fluid" alt="">
+                        <img src="~/Content/Images/Portfolio.jpg" class="img-fluid" alt="" />
+                        @*https://stocksnap.io/photo/F164KBFZ95*@
                         <div class="mask"></div>
                     </div>
 
@@ -66,10 +56,10 @@ End Code
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.25s">
                 <div class="card">
                     <div class="view overlay hm-white-slight">
-                        <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-fluid" alt="">
+                        <img src="~/Content/Images/Gaming.jpg" class="img-fluid" alt="" />
                         <div class="mask"></div>
                     </div>
 
@@ -78,15 +68,15 @@ End Code
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="steam"><i class="fa fa-steam-square fa-2x"></i></a>
                         <a class="d3"><img src="~/Content/Images/d3.png" /></a>
-                        <a class="wow"><img src="~/Content/Images/wow.png" /></a>
+                        <a class="WorldofWarcraft"><img src="~/Content/Images/wow.png" /></a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                 <div class="card">
                     <div class="view overlay hm-white-slight">
-                        <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-fluid" alt="">
+                        <img src="~/Content/Images/sumounit.png" class="img-fluid" alt="" />
                         <div class="mask"></div>
                     </div>
 
@@ -101,10 +91,10 @@ End Code
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.75s">
                 <div class="card">
                     <div class="view overlay hm-white-slight">
-                        <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-fluid" alt="">
+                        <img src="~/Content/Images/Rush Racing.jpg" class="img-fluid" alt="" />
                         <div class="mask"></div>
                     </div>
 
@@ -123,20 +113,42 @@ End Code
 <section class="bg-faded">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 wow fadeInLeft" data-wow-duration="2s">
                 <div class="view overlay hm-white-light z-depth-1-half">
-                    <img src="http://mdbootstrap.com/images/proffesions/slides/socialmedia/img%20(2).jpg" class="img-fluid " alt="">
+                    <img src="~/Content/Images/About.jpg" class="img-fluid " alt="" />
                     <div class="mask waves-effect waves-light">
                     </div>
                 </div>
                 <br>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-5 wow fadeInUp" data-wow-duration="2s">
                 <h2 class="h2-responsive">Hey, my name is Marvin.</h2>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis natus quaerat!</p>
                 <a href="" class="btn btn-primary waves-effect waves-light">Get it now!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 wow fadeInDown" data-wow-duration="2s" data-wow-offset="250">
+                <h2 class="h2-responsive">Hey, my name is Marvin.</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis natus quaerat!</p>
+                <a href="" class="btn btn-primary waves-effect waves-light">Get it now!</a>
+            </div>
+
+            <div class="col-md-7 wow fadeInRight" data-wow-duration="2s" data-wow-offset="250">
+                <div class="view overlay hm-white-light z-depth-1-half">
+                    <img src="~/Content/Images/About.jpg" class="img-fluid " alt="" />
+                    <div class="mask waves-effect waves-light">
+                    </div>
+                </div>
+                <br>
             </div>
         </div>
     </div>

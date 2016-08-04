@@ -3,7 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="ROBOTS" content="NOODP">
     <meta name="author" content="Marvin Kayx" />
@@ -25,11 +26,11 @@
 
     @Styles.Render("~/Content/css")
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="#">Marvin Kayx</a>
+        @Html.ActionLink("Home", "Index", Nothing, New With {.class = "navbar-brand"})
         <ul class="container nav navbar-nav">
             <li class="nav-item active">
                 @Html.ActionLink("Home", "Index", Nothing, New With {.class = "nav-link"})
@@ -98,7 +99,10 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-
+    @Scripts.Render("~/bundles/CustomJS")
+    <script>
+        new WOW().init();
+    </script>
     @RenderSection("scripts", required:=False)
 </body>
 </html>

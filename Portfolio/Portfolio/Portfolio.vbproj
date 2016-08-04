@@ -214,6 +214,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\animate.css" />
     <Content Include="Content\Fonts\font-awesome.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.eot" />
     <Content Include="Content\Fonts\fontawesome-webfont.ttf" />
@@ -230,10 +231,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\Images\120px-Availability_Table_Icons_-_Battle_net.svg" />
     <Content Include="Content\Images\d3.png" />
-    <Content Include="Content\Images\photo-1435244837924-21c508f9db25.jpg" />
-    <Content Include="Content\Images\r6_night.jpg" />
+    <Content Include="Content\Images\Rush Racing.jpg" />
+    <Content Include="Content\Images\Portfolio.jpg" />
+    <Content Include="Content\Images\Gaming.jpg" />
+    <Content Include="Content\Images\sumounit.png" />
     <Content Include="Content\Images\wow.png" />
     <Content Include="Content\Material Design\Bootstrap 4 Alpha.css" />
     <Content Include="Content\Material Design\Bootstrap 4 Material.css" />
@@ -250,6 +252,7 @@
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\modernizr-custom.js" />
     <Content Include="Scripts\tether.js" />
+    <Content Include="Scripts\wow.js" />
     <Content Include="Views\Home\ToDo%27s.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Scripts\jquery-2.2.4.js" />
