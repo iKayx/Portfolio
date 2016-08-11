@@ -1,0 +1,16 @@
+﻿#General, #WorldOfWarcraft, #Diablo, #HS {
+    display: none;
+
+
+    &:target {
+        display: block !important;
+    }
+}
+
+#Banner {
+    padding: 0;
+}
+
+#Gallerycontainer{
+    flex:1;
+}

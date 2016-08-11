@@ -1,0 +1,55 @@
+﻿@import "base";
+
+.facebook {
+    color: fade-out($Facebook,$Overlay);
+
+    &:hover {
+        color: $Facebook;
+    }
+}
+
+.youtube {
+    color: fade-out($Youtube,$Overlay);
+
+    &:hover {
+        color: $Youtube;
+    }
+}
+
+.instagram {
+    color: fade-out($Instagram,$Overlay);
+
+    &:hover {
+        color: $Instagram;
+    }
+}
+
+.steam {
+    color: fade-out($Steam,$Overlay);
+
+    &:hover {
+        color: $Steam;
+    }
+}
+
+.web {
+    color: fade-out($Web,$Overlay);
+
+    &:hover {
+        color: $Web;
+    }
+}
+
+.d3, .WorldofWarcraft {
+    opacity: $Overlay;
+
+    &:hover {
+        opacity: $Overlay * 2;
+    }
+
+    img {
+        width: 2em;
+        height: 2em;
+        margin-top: -1em;
+    }
+}

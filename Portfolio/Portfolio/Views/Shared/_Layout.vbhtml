@@ -25,26 +25,33 @@
     <title>@ViewBag.Title</title>
 
     @Styles.Render("~/Content/css")
+    <link href="~/Content/Material Design/SASS/Styles.min.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
     <nav class="navbar navbar-light bg-faded">
-        @Html.ActionLink("Home", "Index", Nothing, New With {.class = "navbar-brand"})
-        <ul class="container nav navbar-nav">
-            <li class="nav-item active">
-                @Html.ActionLink("Home", "Index", Nothing, New With {.class = "nav-link"})
-            </li>
-            <li class="nav-item">
-                @Html.ActionLink("ToDo's", "todo", Nothing, New With {.class = "nav-link"})
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-        </ul>
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+            @Html.ActionLink("Home", "Index", Nothing, New With {.class = "navbar-brand"})
+            <ul class="container nav navbar-nav">
+                <li class="nav-item active">
+                    @Html.ActionLink("Home", "Index", "Home", Nothing, New With {.class = "nav-link"})
+                </li>
+                <li class="nav-item">
+                    @Html.ActionLink("ToDo's", "todo", "Home", Nothing, New With {.class = "nav-link"})
+                </li>
+                <li class="nav-item">
+                    @Html.ActionLink("Links", "Links", "Stuff", Nothing, New With {.class = "nav-link"})
+                </li>
+                <li class="nav-item">
+                    @Html.ActionLink("Cropper", "ImageCropper", "Stuff", Nothing, New With {.class = "nav-link"})
+                </li>
+                <li class="nav-item">
+                    @Html.ActionLink("Gallery", "Gallery", "Home", Nothing, New With {.class = "nav-link"})
+                </li>
+            </ul>
+        </div>
     </nav>
 
     @RenderBody()
@@ -92,7 +99,6 @@
         <div class="footer-copyright">
             <div class="container-fluid">
                 @DateTime.Now.Year Copyright: <a href="www.Kayx.de" target="_blank"> Marvin Kayx </a>
-
             </div>
         </div>
     </footer>
@@ -100,9 +106,29 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/CustomJS")
+
     <script>
         new WOW().init();
     </script>
+
+    @Select Case ViewBag.Title
+        Case "Gallery"
+            @<script src="~/Scripts/Custom/Masonry.min.js"></script>
+            @<script src="~/Scripts/lightbox.js"></script>
+            @<script src="~/Scripts/Custom/jquery.nanogallery.js"></script>
+            @<script>
+                $(document).ready(function () {
+                    $("#nanoGallery").nanoGallery({
+                        kind: 'flickr',
+                        userID: '34858669@N00'
+                    });
+                });
+
+            </script>
+        Case "Image Cropper"
+            @<script src="~/Scripts/Custom/Cropper.js"></script>
+    End Select
+
     @RenderSection("scripts", required:=False)
 </body>
 </html>

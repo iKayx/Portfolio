@@ -2,5 +2,9 @@
   {
     "outputFile": "Scripts/Bootstrap.es5.js",
     "inputFile": "Scripts/Bootstrap.js"
+  },
+  {
+    "outputFile": "Content/Material Design/SASS/Styles.css",
+    "inputFile": "Content/Material Design/SASS/Styles.scss"
   }
 ]

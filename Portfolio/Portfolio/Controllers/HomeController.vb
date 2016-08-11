@@ -6,8 +6,14 @@
     End Function
 
     Function ToDo() As ActionResult
-        ViewData("Message") = "Your application description page."
+        ViewData("Message") = "Todo List"
 
         Return View("ToDo's")
+    End Function
+
+    Function Gallery() As ActionResult
+        ViewData("Message") = "Gallery"
+
+        Return View("Gallery")
     End Function
 End Class

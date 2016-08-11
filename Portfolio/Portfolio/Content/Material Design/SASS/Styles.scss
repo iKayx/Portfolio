@@ -1,0 +1,20 @@
+﻿@import "_Buttons";
+@import "Cropper";
+@import "_CustomCards";
+@import "Gallery";
+@import "_IDSpecific";
+@import "lightbox";
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+section {
+    padding: 2rem;
+}

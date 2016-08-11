@@ -178,6 +178,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\StuffController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -221,6 +222,25 @@
     <Content Include="Content\Fonts\fontawesome-webfont.woff" />
     <Content Include="Content\Fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\Fonts\FontAwesome.otf" />
+    <Content Include="Content\Images\close.png" />
+    <Content Include="Content\Images\loading.gif" />
+    <Content Include="Content\Images\next.png" />
+    <Content Include="Content\Images\prev.png" />
+    <Content Include="Content\Images\Upload.svg" />
+    <Content Include="Content\Material Design\SASS\Styles.css">
+      <DependentUpon>Styles.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Material Design\SASS\Styles.min.css">
+      <DependentUpon>Styles.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Material Design\SASS\Styles.scss" />
+    <Content Include="Content\Material Design\SASS\_CustomCards.scss" />
+    <Content Include="Content\Material Design\SASS\_Buttons.scss" />
+    <Content Include="Content\Material Design\SASS\_IDSpecific.scss" />
+    <Content Include="Content\Material Design\SASS\_base.scss" />
+    <Content Include="Content\Material Design\SASS\_Cropper.scss" />
+    <Content Include="Content\Material Design\SASS\_Gallery.scss" />
+    <Content Include="Content\Material Design\SASS\_lightbox.scss" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -231,15 +251,21 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Images\About.jpg" />
+    <Content Include="Content\Images\Banner1.jpg" />
+    <Content Include="Content\Images\Banner2.jpg" />
+    <Content Include="Content\Images\D3.jpg" />
     <Content Include="Content\Images\d3.png" />
+    <Content Include="Content\Images\HS.jpg" />
+    <Content Include="Content\Images\Legion.jpg" />
     <Content Include="Content\Images\Rush Racing.jpg" />
     <Content Include="Content\Images\Portfolio.jpg" />
     <Content Include="Content\Images\Gaming.jpg" />
     <Content Include="Content\Images\sumounit.png" />
+    <Content Include="Content\Images\things-to-do-list.jpg" />
     <Content Include="Content\Images\wow.png" />
     <Content Include="Content\Material Design\Bootstrap 4 Alpha.css" />
     <Content Include="Content\Material Design\Bootstrap 4 Material.css" />
-    <Content Include="Content\Material Design\Changes.css" />
     <Content Include="Scripts\Bootstrap Material.js" />
     <Content Include="Scripts\Bootstrap.es5.js">
       <DependentUpon>Bootstrap.js</DependentUpon>
@@ -248,14 +274,22 @@
       <DependentUpon>Bootstrap.es5.js</DependentUpon>
     </Content>
     <Content Include="Scripts\Bootstrap.js" />
-    <Content Include="Scripts\Cookies.js" />
+    <Content Include="Scripts\Custom\Cookies.js" />
+    <Content Include="Scripts\Custom\Cropper.js" />
+    <Content Include="Scripts\Custom\General.js" />
+    <Content Include="Scripts\Custom\jquery.nanogallery.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
+    <Content Include="Scripts\Custom\Masonry.min.js" />
+    <Content Include="Scripts\lightbox.js" />
     <Content Include="Scripts\modernizr-custom.js" />
     <Content Include="Scripts\tether.js" />
     <Content Include="Scripts\wow.js" />
     <Content Include="Views\Home\ToDo%27s.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Scripts\jquery-2.2.4.js" />
+    <Content Include="Views\Stuff\Links.vbhtml" />
+    <Content Include="Views\Stuff\CropImages.vbhtml" />
+    <Content Include="Views\Home\Gallery.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

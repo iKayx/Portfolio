@@ -6,7 +6,6 @@ Public Module BundleConfig
         bundles.Add(New StyleBundle("~/Content/css").Include(
                   "~/Content/Material Design/Bootstrap 4 Alpha.css",
                   "~/Content/Material Design/Bootstrap 4 Material.css",
-                  "~/Content/Material Design/Changes.css",
                   "~/Content/Fonts/font-awesome.css",
                   "~/Content/animate.css"))
 
@@ -24,8 +23,9 @@ Public Module BundleConfig
 
 
         bundles.Add(New ScriptBundle("~/bundles/CustomJS").Include(
-                    "~/scripts/Cookies.js",
-                    "~/scripts/wow.js"))
+                    "~/scripts/Custom/Cookies.js",
+                    "~/scripts/wow.js",
+                    "~/scripts/Custom/General.js"))
 
         BundleTable.EnableOptimizations = True
     End Sub

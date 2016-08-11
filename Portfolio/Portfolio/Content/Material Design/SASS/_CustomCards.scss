@@ -1,0 +1,61 @@
+﻿@import "base";
+
+.StudyLinks, .InfoLinks, .WebLinks, .MediaLinks {
+    width: 239px;
+
+    i {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .StudyLinks, .InfoLinks, .WebLinks, .MediaLinks {
+        width: auto;
+    }
+}
+
+.StudyLinks {
+    background-color: $blue;
+
+    &:hover {
+        background-color: darken($blue,$Darken);
+    }
+}
+
+.InfoLinks {
+    background-color: $green;
+
+    &:hover {
+        background-color: darken($green,$Darken);
+    }
+}
+
+.WebLinks {
+    background-color: $red;
+
+    &:hover {
+        background-color: darken($red,$Darken);
+    }
+}
+
+.MediaLinks {
+    background-color: $yellow;
+
+    &:hover {
+        background-color: darken($yellow,$Darken);
+    }
+}
+
+#StudyLinks, #InfoLinks, #WebLinks, #MediaLinks {
+    display: none;
+
+    &:target {
+        display: block;
+        overflow: hidden;
+    }
+
+    h4 {
+        text-align: center;
+        color: grey;
+    }
+}
