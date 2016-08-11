@@ -1,73 +1,6 @@
-﻿html {
-    overflow-y: scroll;
+﻿.page-container{
+    flex:1;
 }
-
-.grid-sizer, .item {
-    width: 20%;
-
-    img {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 1224px) {
-    .grid-sizer, .item {
-        width: 33.33%;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .grid-sizer, .item {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .grid-sizer, .item {
-        width: 100%;
-    }
-}
-
-
-.item .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    color: #fff;
-    display: none;
-
-    .title {
-        padding-top: 0.25em;
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .description {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        width: 100%;
-        margin: 0;
-
-        p {
-            margin: 20px;
-        }
-    }
-}
-
-.item:hover .overlay {
-    display: block;
-}
-
-
-/**************************************/
-/* MAIN CONTAINER                     */
-/**************************************/
 
 .nanogallery_theme_default {
   font-size: 1.0em;
@@ -86,6 +19,7 @@
   .nanoGalleryNavigationbarContainer {
     margin: 5px auto;
     padding: 5px 0;
+    width:auto!important;
     /*background-color:#f09;*/
     display: block;
   }

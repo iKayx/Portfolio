@@ -113,14 +113,16 @@
 
     @Select Case ViewBag.Title
         Case "Gallery"
-            @<script src="~/Scripts/Custom/Masonry.min.js"></script>
-            @<script src="~/Scripts/lightbox.js"></script>
             @<script src="~/Scripts/Custom/jquery.nanogallery.js"></script>
             @<script>
                 $(document).ready(function () {
                     $("#nanoGallery").nanoGallery({
                         kind: 'flickr',
-                        userID: '34858669@N00'
+                        userID: '144515650@N04',
+                        thumbnailWidth: 250,
+                        thumbnailHeight: 141,
+                        thumbnailHoverEffect: 'labelSlideUp,labelAppear75',
+                        theme: 'default'
                     });
                 });
 
